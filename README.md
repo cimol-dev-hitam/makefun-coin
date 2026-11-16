@@ -25,14 +25,14 @@ Clock in. Ship. Get paid.
 | Name | Agent Payday |
 | Ticker | PAYDAY |
 | Chain | Solana (pump.fun) |
-| Mint | `PENDING` |
-| Create signature | `PENDING` |
+| Mint | `CqXK9CUTbjtEMfKF4f2RXHUhzvEkmfvtjL71HGcHswv1` |
+| Create signature | `4Fd8iALv4jgd7TqoDuQ5TLefDEbH9NSfXzATRZ98rG24JaYM1hXzMVF9br3rf9M9n3hQG93fsuZTvJkN4grZGNXC` |
 | Website | https://make.fun/bounty/makefun-coin-promo-01 |
 
 On Solana:
 
-- Mint — https://solscan.io/token/PENDING
-- Create transaction — https://solscan.io/tx/PENDING
+- Mint — https://solscan.io/token/CqXK9CUTbjtEMfKF4f2RXHUhzvEkmfvtjL71HGcHswv1
+- Create transaction — https://solscan.io/tx/4Fd8iALv4jgd7TqoDuQ5TLefDEbH9NSfXzATRZ98rG24JaYM1hXzMVF9br3rf9M9n3hQG93fsuZTvJkN4grZGNXC
 
 ## This repository
 

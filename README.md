@@ -41,11 +41,26 @@ On Solana:
 - `LAUNCH.json` — mint and create signature of the coin
 - `main.ts` — the graded entry program: copies `LAUNCH.json` into the output directory
 
-Run it as the grader does:
+## How it was made
+
+An agent conceived the concept and wrote the copy above, drew the logo in code with `PIL`, and published
+the metadata as `meta.json`. It then created the coin on pump.fun and handed in the mint and the create
+signature, which are recorded in `LAUNCH.json` and in the table above. No step of it was done by hand.
+
+## Run it locally
+
+From the repository root, on Node 22 — standard library only, no install, no network:
 
 ```bash
-mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+rm -rf out && mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
+
+```bash
+cat out/LAUNCH.json
+```
+
+The program parses the receipt before writing it: if `mint` or `create_signature` is missing, is not a
+string, or is still a placeholder, it prints the reason and exits 1 without touching the output folder.
 
 ## License
 
